@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--paragraph-color: #8a8a8a;
+	--headings-color: #484848;
+	--red-alert-color: #ff4646;
+	--custom-grey: #e0e0e0;
+}
+
+@layer base {
+	body {
+		background-color: #fff;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: 'Volkhov', serif;
+	}
+	p,
+	a,
+	span,
+	button {
+		font-family: 'Poppins', sans-serif;
+	}
+	p {
+		color: var(--paragraph-color);
+	}
+
+	a:hover{
+		color: var(--headings-color);
+		text-decoration: underline;
+	}
+}
