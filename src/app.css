@@ -33,6 +33,6 @@
 
 	a:hover{
 		color: var(--headings-color);
-		text-decoration: underline;
+		/* text-decoration: underline; */
 	}
 }
