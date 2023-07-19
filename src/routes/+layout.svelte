@@ -4,6 +4,13 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<title>minim | home</title>
+	<meta name="description" content="A Unisex fashion store" />
+</svelte:head>
+
 <Navbar />
-<slot />
+<main>
+	<slot />
+</main>
 <Footer />
