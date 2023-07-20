@@ -18,7 +18,7 @@
 		<input
 			type="text"
 			placeholder="example@gmail.com"
-			class="w-full px-4 py-3 my-2 text-black text-sm focus:outline-none shadow-xl"
+			class="w-full px-4 py-3 my-2 text-black text-sm focus:outline-none shadow-lg"
 		/>
 		<BlackBox px="px-8" py="py-2">
 			<button class="capitalize text-white w-full h-full">subscribe now</button>
