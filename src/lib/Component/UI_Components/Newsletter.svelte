@@ -2,7 +2,7 @@
 	import BlackBox from '../Atoms/BlackBox.svelte';
 </script>
 
-<section class="comp-layout py-10 md:py-20 contain">
+<section class="comp-layout py-10 md:py-12 contain">
 	<div class="hidden md:block img1">
 		<img src="/Images/newsletter/newletterimg1.jpg" alt="model" />
 	</div>
