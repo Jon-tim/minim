@@ -40,6 +40,9 @@
 	.comp-layout {
 		@apply px-4 md:px-6 py-4 max-w-5xl mx-auto xl:px-0;
 	}
+	input {
+		background-color: var(--custom-light-grey);
+	}
 }
 
 @font-face {

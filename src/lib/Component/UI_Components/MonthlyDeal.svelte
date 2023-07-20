@@ -12,7 +12,7 @@
 				offers feature hand-picked deals that are sure to delight bargain hunters and savvy shoppers
 				alike.
 			</p>
-			<BlackBox w="w-max" h="h-max" px="px-6" py="py-2"
+			<BlackBox px="px-6" py="py-2"
 				><p class="text-white capitalize">buy now</p></BlackBox
 			>
 			<div class="mt-6">

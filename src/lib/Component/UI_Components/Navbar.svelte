@@ -13,7 +13,7 @@
 		<MenuToggle />
 		<!------------------>
 		<Logo />
-		<BlackBox h="h-max" w="w-max" px="px-3" py="py-2">
+		<BlackBox px="px-3" py="py-2">
 			<span class="capitalize text-sm">cart (0)</span>
 		</BlackBox>
 	</div>
