@@ -7,6 +7,7 @@
 	--headings-color: #484848;
 	--red-alert-color: #ff4646;
 	--custom-grey: #e0e0e0;
+	--custom-light-grey: #eeeeee;
 }
 
 @layer base {
@@ -20,6 +21,7 @@
 	h5,
 	h6 {
 		font-family: 'Volkhov', serif;
+		color: var(--headings-color);
 	}
 	p,
 	a,
@@ -31,7 +33,18 @@
 		color: var(--paragraph-color);
 	}
 
-	a:hover{
+	a:hover {
 		color: var(--headings-color);
 	}
+
+	.comp-layout {
+		@apply px-4 md:px-6 py-4 max-w-5xl mx-auto xl:px-0;
+	}
+}
+
+@font-face {
+	font-family: 'Digital Numbers Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('/fonts/digital-numbers-font/DigitalNumbers-Regular.woff'), format('woff');
 }

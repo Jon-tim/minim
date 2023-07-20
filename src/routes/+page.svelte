@@ -1,9 +1,13 @@
 <script>
-
+	import Hero from '$lib/Component/UI_Components/Hero.svelte';
+	import Brands from '$lib/Component/Atoms/Brands.svelte';
+	import MonthlyDeal from '$lib/Component/UI_Components/MonthlyDeal.svelte';
 </script>
 
 <main>
-	<!-- <h1>hi</h1> -->
+	<Hero />
+	<Brands />
+	<MonthlyDeal />
 </main>
 
 <style lang="postcss">

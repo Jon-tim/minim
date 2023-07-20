@@ -5,7 +5,7 @@
 	import NavLinks from '../Molecules/NavLinks.svelte';
 </script>
 
-<nav class="px-4 md:px-6 py-4 max-w-5xl mx-auto xl:px-0 border-b">
+<nav class="comp-layout border-b">
 	<div class="flex items-center justify-between">
 		<div class="hidden md:flex items-center gap-4 md:gap-10">
 			<NavLinks />

@@ -2,7 +2,7 @@
 	import Logo from '../Atoms/Logo.svelte';
 </script>
 
-<footer class="px-4 md:px-6 py-4 max-w-5xl mx-auto xl:px-0 border-t">
+<footer class="comp-layout border-t">
 	<div>
 		<div class="flex items-center justify-between">
 			<p class="text-xs hover:underline hover:underline-offset-2 cursor-not-allowed">Support</p>
