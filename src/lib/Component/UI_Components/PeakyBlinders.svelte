@@ -7,7 +7,7 @@
 	<div>
 		<div class="img-holder">
 			<img
-				src="/Images/fashion/men/imagepeaky.jpg"
+				src="/Images/fashion/men/peaky.jpg"
 				alt="a model in peaky blinder's fashion dress"
 			/>
 		</div>
